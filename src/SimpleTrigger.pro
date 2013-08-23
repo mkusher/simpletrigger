@@ -18,7 +18,9 @@ TEMPLATE = app
 SOURCES += main.cpp \
     app.cpp \
     characters/human.cpp \
-    characters/droid.cpp
+    characters/droid.cpp \
+    world/map.cpp \
+    world/sector.cpp
 
 HEADERS += \
     app.h \
@@ -27,4 +29,6 @@ HEADERS += \
     states/state.h \
     fsm.h \
     states/conditions/condition.h \
-    characters/character.h
+    characters/character.h \
+    world/map.h \
+    world/sector.h

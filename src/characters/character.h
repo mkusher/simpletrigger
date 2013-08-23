@@ -3,7 +3,12 @@
 
 namespace Characters {
     class Character {
+        double healthPoints;
+        double strength;
 
+    public:
+        double getStrength();
+        double getHealthPoints();
     };
 }
 
