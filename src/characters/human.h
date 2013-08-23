@@ -1,9 +1,11 @@
 #ifndef HUMAN_H
 #define HUMAN_H
 
+#include "character.h"
+
 namespace Characters {
 
-    class Human {
+    class Human : public Character{
     public:
         Human();
     };

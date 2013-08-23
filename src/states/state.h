@@ -16,8 +16,8 @@ namespace States {
         FSM* machine;
         QMap<Condition*, State*> relations;
     public:
-        virtual State* onStart()=0;
-        virtual State* onEnd()=0;
+        virtual State* start()=0;
+        virtual State* end()=0;
         virtual State* beforeExec()=0;
         virtual State* afterExec()=0;
 
