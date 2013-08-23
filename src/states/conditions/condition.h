@@ -5,7 +5,7 @@ namespace States {
     namespace Conditions {
         class Condition {
         public:
-            bool virtual exec()=0;
+            virtual bool exec()=0;
         };
     }
 }

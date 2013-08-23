@@ -3,10 +3,10 @@
 
 namespace Characters {
 
-class Human {
-public:
-    Human();
-};
+    class Human {
+    public:
+        Human();
+    };
 
 }
 #endif // HUMAN_H

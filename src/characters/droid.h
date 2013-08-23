@@ -3,10 +3,10 @@
 
 namespace Characters {
 
-class Droid {
-public:
-    Droid();
-};
+    class Droid {
+    public:
+        Droid();
+    };
 
 }
 #endif // DROID_H
