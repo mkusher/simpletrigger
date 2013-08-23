@@ -25,4 +25,5 @@ HEADERS += \
     characters/human.h \
     characters/droid.h \
     states/state.h \
-    fsm.h
+    fsm.h \
+    states/conditions/condition.h

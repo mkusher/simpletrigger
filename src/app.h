@@ -2,12 +2,13 @@
 #define APP_H
 
 #include <QCoreApplication>
+#include <QStringList>
 
 class App : public QCoreApplication {
     Q_OBJECT
 
     int argc;
-    char** argv;
+    QStringList argv;
 public:
     App(int&, char**&);
     
