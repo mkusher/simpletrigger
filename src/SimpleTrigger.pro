@@ -17,12 +17,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     app.cpp \
-    human.cpp \
-    droid.cpp
+    characters/human.cpp \
+    characters/droid.cpp
 
 HEADERS += \
     app.h \
-    human.h \
-    droid.h \
-    state.h \
+    characters/human.h \
+    characters/droid.h \
+    states/state.h \
     fsm.h
