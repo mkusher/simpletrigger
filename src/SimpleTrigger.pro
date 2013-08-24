@@ -4,26 +4,24 @@
 #
 #-------------------------------------------------
 
-QT       += core
+QT       += core gui
 
-QT       -= gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = src
-CONFIG   += console
-CONFIG   -= app_bundle
+TARGET = SimpleTrigger
 
 TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    app.cpp \
     characters/human.cpp \
     characters/droid.cpp \
     world/map.cpp \
-    world/sector.cpp
+    world/sector.cpp \
+    views/mainwindow.cpp \
+    views/map.cpp
 
 HEADERS += \
-    app.h \
     characters/human.h \
     characters/droid.h \
     states/state.h \
@@ -31,4 +29,10 @@ HEADERS += \
     states/conditions/condition.h \
     characters/character.h \
     world/map.h \
-    world/sector.h
+    world/sector.h \
+    views/mainwindow.h \
+    views/map.h
+
+FORMS += \
+    views/mainwindow.ui \
+    views/map.ui

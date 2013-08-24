@@ -18,10 +18,10 @@ namespace States {
     public:
         virtual State* start()=0;
         virtual State* end()=0;
-        virtual State* beforeExec()=0;
-        virtual State* afterExec()=0;
 
+        virtual State* beforeExec()=0;
         virtual State* exec()=0;
+        virtual State* afterExec()=0;
     };
 
 }

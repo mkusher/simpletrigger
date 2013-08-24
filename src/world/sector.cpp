@@ -1,6 +1,6 @@
 #include "sector.h"
-using World::Sector;
+using namespace World;
 
-Sector::Sector()
+Sector::Sector(int, int, Map* const)
 {
 }

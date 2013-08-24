@@ -5,11 +5,17 @@
 #include <QVector>
 
 namespace World {
+
+    class Sector;
     class Map
     {
-        QVector< QVector<Sector> > fields;
+        int width, height;
+        QVector< QVector< Sector* > > fields;
     public:
         Map();
+        Map(int, int);
+
+        ~Map();
     };
 }
 #endif // MAP_H
